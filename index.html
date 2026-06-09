@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI资讯日报 · 2026-06-09</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.8;color:#c9d1d9;max-width:860px;margin:0 auto;padding:30px 20px;background:#0f1419}
+.header{text-align:center;padding:30px 0 20px;border-bottom:1px solid #30363d;margin-bottom:30px}
+.header h1{font-size:2em;background:linear-gradient(135deg,#58a6ff,#d2a8ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:6px}
+.header .date{color:#8b949e;font-size:0.95em}
+.meta-bar{display:flex;justify-content:center;gap:24px;margin:20px 0;flex-wrap:wrap}
+.meta-item{text-align:center;padding:12px 18px;background:#161b22;border-radius:10px;border:1px solid #30363d;min-width:100px}
+.meta-item .val{font-size:1.5em;font-weight:700;color:#7ee787}
+.meta-item .lbl{font-size:0.8em;color:#8b949e;margin-top:2px}
+.article{background:#161b22;border:1px solid #30363d;border-radius:12px;margin:18px 0;overflow:hidden;transition:border-color .2s}
+.article:hover{border-color:#58a6ff}
+.article-header{display:flex;align-items:center;padding:16px 20px;cursor:pointer;user-select:none}
+.article-header .num{font-size:1.4em;font-weight:800;margin-right:14px;min-width:32px}
+.article-header .title{flex:1;font-size:1.1em;font-weight:600;color:#e6edf3}
+.article-header .toggle{color:#8b949e;font-size:1.2em;transition:transform .2s}
+.article.open .toggle{transform:rotate(90deg)}
+.article-body{padding:0 20px 18px;display:none;line-height:1.9;color:#b1bac4}
+.article.open .article-body{display:block}
+.tag{display:inline-block;background:#1f2937;color:#58a6ff;padding:2px 10px;border-radius:12px;font-size:0.78em;margin:2px 4px 2px 0;border:1px solid #30363d}
+.tag.important{background:#2d1b1b;color:#f0883e;border-color:#f0883e33}
+.highlight{background:#1a2332;border-left:3px solid #58a6ff;padding:10px 14px;margin:10px 0;border-radius:0 6px 6px 0;font-size:0.95em}
+.data-point{color:#7ee787;font-weight:600}
+.section-title{font-size:1.15em;color:#d2a8ff;font-weight:700;margin:24px 0 12px;padding-left:10px;border-left:3px solid #d2a8ff}
+.footer{text-align:center;color:#484f58;font-size:0.8em;margin-top:36px;padding-top:20px;border-top:1px solid #30363d}
+@media(max-width:600px){body{padding:16px 12px}.header h1{font-size:1.5em}.meta-bar{gap:10px}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📡 AI 资讯日报</h1>
+  <div class="date">2026年6月9日 · 由 Hermes Agent 自动扫描生成</div>
+</div>
+
+<div class="meta-bar">
+  <div class="meta-item"><div class="val">6</div><div class="lbl">文章入库</div></div>
+  <div class="meta-item"><div class="val">3</div><div class="lbl">头条资讯</div></div>
+  <div class="meta-item"><div class="val">4</div><div class="lbl">其他关注</div></div>
+</div>
+
+<div class="section-title">🏆 头条资讯</div>
+
+<div class="article open" onclick="this.classList.toggle('open')">
+  <div class="article-header">
+    <span class="num" style="color:#f0883e">1</span>
+    <span class="title">Claude Opus 4.8 发布 — Agentic 能力全面领先</span>
+    <span class="toggle">▸</span>
+  </div>
+  <div class="article-body">
+    <p>Anthropic 发布 Claude Opus 4.8，在 Super-Agent benchmark 上首次<span class="data-point">端到端完成所有用例</span>，超越 GPT-5.5。浏览器操作 (Online-Mind2Web 84%)、法律任务、长会话保持均创历史新高。</p>
+    <div class="highlight">
+      Fast 模式 <span class="data-point">2.5× 速度</span> 但价格比前代便宜 <span class="data-point">3 倍</span>
+    </div>
+    <p><strong>关键数据：</strong>Anthropic Q1 2026 营收达 <span class="data-point">$30B ARR</span>，Claude Code 单独 <span class="data-point">$2.5B ARR</span>，14 个月从 $1B 到 $30B。</p>
+    <div style="margin-top:10px">
+      <span class="tag important">Anthropic</span><span class="tag">Claude</span><span class="tag">Agent</span><span class="tag">Benchmark</span>
+    </div>
+  </div>
+</div>
+
+<div class="article" onclick="this.classList.toggle('open')">
+  <div class="article-header">
+    <span class="num" style="color:#58a6ff">2</span>
+    <span class="title">Google I/O 2026 全面押注 AI Agent</span>
+    <span class="toggle">▸</span>
+  </div>
+  <div class="article-body">
+    <p>5月19日两小时发布 <span class="data-point">100+ 更新</span>：</p>
+    <ul style="margin:10px 0 10px 20px">
+      <li><strong>Gemini 3.5 Flash</strong> — 4 倍速度，$1.50/百万输入 token</li>
+      <li><strong>Gemini Spark 个人代理</strong> — 跨 Gmail/Calendar/Search 自动操作 + 每日摘要</li>
+      <li><strong>Managed Agents</strong> — 单 API 调用启动沙盒 Linux 环境执行代码/浏览网页</li>
+    </ul>
+    <div class="highlight">
+      AI Ultra 从 $250 降至 <span class="data-point">$200/月</span>
+    </div>
+    <div style="margin-top:10px">
+      <span class="tag important">Google</span><span class="tag">Gemini</span><span class="tag">I/O 2026</span><span class="tag">Agent Platform</span>
+    </div>
+  </div>
+</div>
+
+<div class="article" onclick="this.classList.toggle('open')">
+  <div class="article-header">
+    <span class="num" style="color:#d2a8ff">3</span>
+    <span class="title">DeepSeek V4：承认差距，融资 $70 亿</span>
+    <span class="toggle">▸</span>
+  </div>
+  <div class="article-body">
+    <p>DeepSeek V4 采用混合注意力架构（<span class="data-point">100 万 token 上下文</span>），但官方承认落后前沿模型 <span class="data-point">3-6 个月</span>（约 GPT-5.2/Claude Opus 4.5 水平）。</p>
+    <div class="highlight">
+      优化华为昇腾芯片推理，但仍依赖走私 Nvidia 芯片。首轮融资接近 <span class="data-point">$70 亿</span>，为 AI 领域最大单轮融资之一。
+    </div>
+    <p>美国出口管制被评估为"正在发挥作用"。</p>
+    <div style="margin-top:10px">
+      <span class="tag important">DeepSeek</span><span class="tag">融资</span><span class="tag">芯片管制</span><span class="tag">中国AI</span>
+    </div>
+  </div>
+</div>
+
+<div class="section-title">📌 其他值得关注</div>
+
+<div class="article" onclick="this.classList.toggle('open')">
+  <div class="article-header">
+    <span class="num" style="color:#8b949e">4</span>
+    <span class="title">OpenAI GPT-5.5 Instant 成为 ChatGPT 默认 + 成立部署公司</span>
+    <span class="toggle">▸</span>
+  </div>
+  <div class="article-body">
+    <p>联合 McKinsey / Bain / Capgemini 等 <span class="data-point">19 家</span>咨询公司成立企业部署实体，加速 AI 商业化落地。</p>
+    <div style="margin-top:10px"><span class="tag">OpenAI</span><span class="tag">GPT-5.5</span><span class="tag">企业部署</span></div>
+  </div>
+</div>
+
+<div class="article" onclick="this.classList.toggle('open')">
+  <div class="article-header">
+    <span class="num" style="color:#8b949e">5</span>
+    <span class="title">Andrej Karpathy 加入 Anthropic 领导预训练</span>
+    <span class="toggle">▸</span>
+  </div>
+  <div class="article-body">
+    <p>前 Tesla AI 总监、OpenAI 联合创始人加入 Anthropic，负责预训练方向。这是 Anthropic 在人才争夺战中的重大胜利。</p>
+    <div style="margin-top:10px"><span class="tag">Anthropic</span><span class="tag">Karpathy</span><span class="tag">人才</span></div>
+  </div>
+</div>
+
+<div class="article" onclick="this.classList.toggle('open')">
+  <div class="article-header">
+    <span class="num" style="color:#8b949e">6</span>
+    <span class="title">Mercury 2 扩散架构实现 >1000 tokens/s</span>
+    <span class="toggle">▸</span>
+  </div>
+  <div class="article-body">
+    <p>扩散语言模型推理速度突破 <span class="data-point">1000 tokens/s</span>，远超传统自回归架构。这可能改变 LLM 推理的游戏规则。</p>
+    <div style="margin-top:10px"><span class="tag">推理加速</span><span class="tag">扩散模型</span><span class="tag">Mercury</span></div>
+  </div>
+</div>
+
+<div class="article" onclick="this.classList.toggle('open')">
+  <div class="article-header">
+    <span class="num" style="color:#8b949e">7</span>
+    <span class="title">Hermes Agent v0.16.0 新增 xAI/MiMo/Qwen 提供商</span>
+    <span class="toggle">▸</span>
+  </div>
+  <div class="article-body">
+    <p>开源 AI Agent 框架 Hermes Agent 更新至 v0.16.0，新增 xAI、MiMo、Qwen 等模型提供商支持，进一步扩展多模型生态。</p>
+    <div style="margin-top:10px"><span class="tag">Hermes</span><span class="tag">开源</span><span class="tag">Agent框架</span></div>
+  </div>
+</div>
+
+<div class="footer">
+  Hermes Agent · 每日AI资讯自动扫描 · 数据来源: 多源聚合<br>
+  生成于 2026-06-09 09:05 CST
+</div>
+
+</body>
+</html>
